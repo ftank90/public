@@ -1,0 +1,95 @@
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #242A35;
+  margin: none;
+  height: 100vh;
+}
+
+
+
+.connect-wallet {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  margin-right: 70px;
+  background-color: #242A35;
+  border-bottom: 1px solid #cccccc;
+  width: 100%;
+  padding: 1em;
+  height: 40px;
+
+}
+
+
+.wallet-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  background-color: #242A35;
+  color: #cccccc;
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 0.25rem;
+  
+}
+
+.wallet-info > div > p:first-of-type {
+  overflow-x: auto;
+  font-weight: normal;
+  margin-left: 800px;
+  margin-right: 20px;
+  margin-top: 70px;
+  font-size: 15px;
+}
+
+.button {
+  
+  
+  background-color: #f1f3f5;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+  
+
+
+}
+
+.button-disconnect {
+  background-color: #ffc9c9;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button:active {
+  opacity: 0.6;
+}
+
+button + button {
+  margin-top: 1rem;
+}
+
+.text-error {
+  color: #ff6b6b;
+}
+
+p:first-of-type{
+
+  font-weight: bold;
+  margin-left: 20px;
+  font-size: 30px;
+  margin-bottom: 0px;
+  
+}
+
+.logo {
+
+  margin-top: 10px;
+}
+
+
+
